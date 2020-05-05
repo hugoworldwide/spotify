@@ -1,0 +1,168 @@
+nav{
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top:0;
+  }
+
+section {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+
+}
+
+body {
+  margin: 0;
+}
+
+footer {
+  background-color: black;
+}
+
+.list-footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer li a {
+  color: white;
+}
+
+.spotify-logo {
+  width: 132px;
+}
+
+.menu-bar {
+display: flex;
+flex-direction: row;
+}
+
+.menu-bar li a{
+  color:white; 
+  margin: 5px; 
+}
+
+ul {
+    list-style-type: none;
+} 
+
+h1 {
+  margin: 0px;
+}
+
+a:link {
+  text-decoration: none;
+}
+.music {
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 1.15;
+  margin-top: 0;
+  color: white;
+}
+.millions {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: inherit;
+  line-height: 1.1;
+  color: white;
+}
+
+.button {
+  margin-top: 16px;
+  color: #FFF;
+  background-color: #1DB954;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  padding: 16px 48px 18px;
+
+}
+
+.column-logo {
+width: 100px;
+}
+
+button {
+  border: 0px;
+  width: 260px;
+  color: white;
+  margin: 0 auto;
+  line-height: 1;
+  font-size: 14px;
+  margin-top: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 500px;
+  padding: 18px 42px 18px;
+  background-color: #1db954;
+  text-transform: uppercase;
+  transition-duration: 0.3s;
+}
+
+
+.legal-term ul{ 
+  display: flex;
+}
+
+.legal-term ul li{ 
+margin-right: 10px;  
+}
+
+section {
+  height: 800px;
+  background-color: #f037a5;
+  background: linear-gradient(#f037a5 -60%, #fae62d 140%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(-60%, #f037a5),
+    color-stop(140%, #fae62d)
+  );
+}
+
+.musicfor { 
+color: white;
+font-size: 80px;
+font-weight: 900;
+line-height: 1.15;
+text-align: center;
+margin-bottom: 20px;
+letter-spacing: -0.04em;
+}
+
+.hero-img {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
+}
+
+.alert-covid {
+  background-color: white;
+  height: 100px;
+}
+
+.alert-covid h3 {
+  margin-top: 100px;
+  color: blue;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.alert-covid p {
+  margin-left: 30px;
+}
